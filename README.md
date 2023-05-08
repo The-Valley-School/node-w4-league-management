@@ -4,7 +4,8 @@ En este workshop vamos a trabajar realizando una API que nos permita gestionar l
 
 Como en este workshop vamos a trabajar en equipo es importante cómo trabajemos con las ramas, por ello vamos a repartir las tareas para dos personas, que llamaremos developer 1 y developer 2.
 
-Es importante recordar que trabajaremos siguiendo Gitflow.
+Es importante recordar que trabajaremos siguiendo Gitflow:
+![gitflow](/assets/gitflow.png)
 
 **PASO 1**
 
