@@ -94,7 +94,11 @@ Una vez tengamos lista la rama release/2.0.0 ambos desarrolladores deberán prob
 
 Si se detecta algún error, se crear una rama a partir de release/2.0.0, corregirlo y abrir una PR para mergearlo en release/2.0.0.
 
-También el developer 1 deberá crear una rama llamada “add-vercel-json” a partir de release/2.0.0 donde subirá el fichero para poder desplegar en vercel. Cuando tenga la rama lista, deberá abrir PR a release/2.0.0.
+Vamos a fingir que durante la release nos hemos dado cuenta de que nos faltan dos cosas:
+
+El developer 1 deberá crear una rama llamada “add-vercel-json” a partir de release/2.0.0 donde subirá el fichero para poder desplegar en vercel. Cuando tenga la rama lista, deberá abrir PR a release/2.0.0.
+
+El developer 2 deberá crear una rama llamda “add-cors-headers” a partir de la release/2.0.0 donde deberá instalar y configurar la librería CORS para que se puedan realizar peticiones desde http://localhost:300
 
 Todas las PRs deben ser validadas y mergeadas por el otro developer.
 
@@ -128,3 +132,5 @@ Debes añadir las siguientes funcionalidades y crear una release/3.0.0 siguiendo
   - Partidos jugados
 
 ![Untitled](/assets/Untitled.png)
+
+- Crea un pequeño Front-End hecho en React que consuma este endpoint y pinte la clasificación en formato tabla
